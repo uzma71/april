@@ -1,0 +1,15 @@
+.device::before{
+    content: 'XS';
+    font-size: 30px;
+    color: red;
+}
+@media(max-width:768px){
+    .device::before{
+content:'md';
+font-size:40px;
+color:blue;
+}
+}
+.container{
+    color:blue;
+}
